@@ -1,72 +1,18 @@
 <idea-plugin>
-  <id>com.jetbrains.CyanTheme</id>
-  <name>Cyan Light Theme</name>
+  <id>com.jacksonrakena.PinkLightTheme</id>
+  <name>Pink Light Theme</name>
   <version>1.3</version>
-  <vendor email="olga.berdnikova@jetbrains.com" url="http://jetbrains.com">JetBrains</vendor>
+  <vendor email="jackson@rakena.co.nz">Jackson Rakena</vendor>
 
   <description><![CDATA[
-  A light theme in cyan tones. For version 2019.1 and above.
-  <br/><br/>
-
-  To install:
-  <ul>
-  <li>Go to <i>Settings (Preferences) | Plugins</i>, find the theme plugin and install it</li>
-  <li>Restart IDE</li>
-  <li>Go to <i>Settings (Preferences) | Appearance & Behavior | Appearance</i> and see the <i>Theme</i> dropdown</li>
-  </ul>
-  <br/>
-
-  <a href="https://github.com/OlyaB/CyanTheme/issues">Report an issue</a>  |  <a href="https://github.com/OlyaB/CyanTheme">On GitHub</a>  |  <a href="http://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_intro.html">How to make a theme</a>
-  <br/><br/><br/>
-
-  <img src="https://raw.githubusercontent.com/OlyaB/CyanTheme/master/screenshots/cyan-main-window.png" border="0" width="700" alt="Main window screenshot">
-  <br/>
-  <img src="https://raw.githubusercontent.com/OlyaB/CyanTheme/master/screenshots/cyan-settings.png" border="0" width="700" alt="Settings screenshot">
+  A pink them inspired by the JetBrains' Cyan Light Theme.
     ]]></description>
 
-  <change-notes><![CDATA[
-  <b>1.3</b>
-  <ul>
-    <li>Support UI changes for versions 2021.*–2022.1</li>
-  </ul><br/>
-
-  <b>1.2</b>
-  <ul>
-    <li>Support UI changes for versions 2020</li>
-  </ul><br/>
-
-  <b>1.1.1</b><br/>
-  Fix completion selection foreground for 2019.1<br/><br/>
-
-  <b>1.1</b>
-  <ul>
-    <li>Support UI changes for 2019.2: new tabs, completion, etc.</li>
-    <li>Fix minor staff: caret row, documentation popup, etc.</li>
-  </ul><br/>
-
-  <b>1.0.1</b>
-  <ul>
-    <li>Add installation instructions</li>
-    <li>Unbundle plugin screenshots</li>
-  </ul>
-    ]]>
-  </change-notes>
-
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
   <idea-version since-build="191.0"/>
-
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-       on how to target different products -->
 
   <depends>com.intellij.modules.lang</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
-    <themeProvider id="d97839ff-2d08-4ff5-ae61-b075f351d8ac" path="/Cyan.theme.json"/>
+    <themeProvider id="d97839ff-2d08-4ff5-ae61-b075f351d8ac" path="/Pink.theme.json"/>
   </extensions>
-
-  <actions>
-    <!-- Add your actions here -->
-  </actions>
-
 </idea-plugin>

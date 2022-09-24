@@ -1,16 +1,16 @@
 {
-  "name": "Cyan light",
+  "name": "Pink light",
   "dark": false,
-  "author": "Olga Berdnikova",
+  "author": "Jackson Rakena",
 
-  "editorScheme": "/themes/cyanScheme.xml",
+  "editorScheme": "/themes/scheme.xml",
 
   "ui": {
     "*": {
       "background": "#e4e6eb",
       "foreground": "#1d1d1d",
 
-      "selectionBackground": "#3eb2c2",
+      "selectionBackground": "#c662a3",
       "selectionBackgroundInactive": "#d0d5db",
       "selectionInactiveBackground": "#d0d5db",
       "lightSelectionBackground": "#d3e4eb",
@@ -120,11 +120,11 @@
     "Label.errorForeground": "#C7222D",
 
     "Link": {
-      "activeForeground": "#009eb3",
-      "hoverForeground": "#009eb3",
-      "pressedForeground": "#009eb3",
-      "visitedForeground": "#009eb3",
-      "secondaryForeground": "#7ac2cc"
+      "activeForeground": "#c662a3",
+      "hoverForeground": "#c23e94",
+      "pressedForeground": "#c23e94",
+      "visitedForeground": "#c23e94",
+      "secondaryForeground": "#eaafe0"
     },
 
     "List": {
